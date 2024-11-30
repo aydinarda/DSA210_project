@@ -59,7 +59,8 @@ Requested data is in `.mbox` format, acquired via Google Takeout. The dataset in
   - **To:** The recipient's email address.  
   - **Subject:** The email subject, e.g., "Inquiry about Master's Applications."  
   - **Body:** The main content of the email.  
-  - **In-Reply-To:** Indicates if the email is a reply to a specific message.  
+  - **In-Reply-To:** Indicates **if** the email is a reply to a specific message.  
+An example after organizing can be found in [here](example_mail_organized.txt) 
 
 ### ChatGPT API
 
