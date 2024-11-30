@@ -47,7 +47,8 @@ The motivation is to better understand how AI agents can mimic my email-writing 
 - **distfit:** Used for distribution fitting.  
 - **transformers:** Simplifies the usage of pre-trained models from Hugging Face.
 - **openai:** To interact with the OpenAI API.
-
+-**FlagReranker** To compute some [formality score](#formality_score)
+  
 ## Data Source
 
 ### Requested Data
@@ -92,7 +93,10 @@ Data preprocessing is performed using [here]() and includes:
 ### Mail Body Analysis
 
 - Study the tone, sentiment, and complexity of email bodies.  
-- Measure average word length, sentence structure, and key phrases.  
+- Measure average word length, sentence structure, and key phrases.
+
+### Formality Score
+- Using FlagReranker, mail's distances to words "formal" and "informal" compared.
 
 ### GPT-Generated Data Analysis
 
