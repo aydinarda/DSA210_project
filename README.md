@@ -96,7 +96,8 @@ Data preprocessing is performed using [here]() and includes:
 - Measure average word length, sentence structure, and key phrases.
 
 ### Formality Score
-- Using FlagReranker, mail's distances to words "formal" and "informal" compared.
+- Using FlagReranker, mail's similarities to words "formal" and "informal" compared.
+- For more information check [here](https://huggingface.co/BAAI/bge-reranker-v2-m3)
 
 ### GPT-Generated Data Analysis
 
