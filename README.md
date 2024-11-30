@@ -47,7 +47,7 @@ The motivation is to better understand how AI agents can mimic my email-writing 
 - **distfit:** Used for distribution fitting.  
 - **transformers:** Simplifies the usage of pre-trained models from Hugging Face.
 - **openai:** To interact with the OpenAI API.
--**FlagReranker** To compute some [formality score](#formality_score)
+-**FlagReranker** To compute some [formality score](#formality-score)
   
 ## Data Source
 
