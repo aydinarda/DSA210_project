@@ -102,7 +102,7 @@ Data preprocessing is performed using [here]() and includes:
 ### Distributions of Original Data
 
 - Visualizations of key characteristics in the original dataset (e.g., word count, time distribution).  
-- - Example versions can be viewed [here](initial distributions.png).
+- - Example versions can be viewed [here](initial_distributions.png).
 
 ### Distributions of GPT-Generated Data
 
