@@ -69,7 +69,7 @@ The ChatGPT API is used to generate comparable email data based on the following
 
 ## Data Processing
 
-Data preprocessing is performed using `data_process.ipynb` and includes:  
+Data preprocessing is performed using [here]() and includes:  
 - Cleaning (e.g., removing special characters, handling null values).  
 - Structuring (e.g., separating headers, body text, and metadata).  
 - Annotating sentiment and tone using NLP techniques.  
