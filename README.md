@@ -1,4 +1,4 @@
-# Sent Mails Analysis
+# Sent Mails Analysis & Comparisons with LLM generated mails
 
 ## Description
 
