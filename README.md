@@ -39,13 +39,14 @@ The motivation is to better understand how AI agents can mimic my email-writing 
 
 ## Tools
 
-- **Jupyter Notebook:** Used for coding and documentation.  
+- **Python Notebook:** Used for coding, anaylzing and visualizing.  
 - **Pandas:** Used for data cleaning, filtering, and structuring.  
-- **Matplotlib and Seaborn:** Used for visualizations.  
+- **Matplotlib and Seaborn:** To have necessary visualizations.  
 - **Numpy:** Used for mathematical operations.  
 - **Scipy:** Used for statistical analysis.  
 - **distfit:** Used for distribution fitting.  
-- **transformers:** Simplifies the usage of pre-trained models from Hugging Face.  
+- **transformers:** Simplifies the usage of pre-trained models from Hugging Face.
+- **openai:** To interact with the OpenAI API.
 
 ## Data Source
 
@@ -66,6 +67,7 @@ The ChatGPT API is used to generate comparable email data based on the following
 - Headers synthesized based on context.  
 - Emails written for the given situation.  
 - Suggested send times, derived from the analysis of original data patterns.  
+- GPT 3.5 is used, since it is cheaper per token. 
 
 ## Data Processing
 
@@ -130,4 +132,5 @@ Data preprocessing is performed using [here]() and includes:
 
 - **Final Report Website:** A dedicated website will summarize findings, with interactive visualizations and insights.  
 - **Sentiment and Context Analysis:** Deepen the analysis of sentiment and email context to refine AI-generated results.  
-- **Scaling the Project:** Include emails from multiple individuals to create a broader dataset for analysis.  
+- **Scaling the Project:** Include emails from multiple individuals to create a broader dataset for analysis.
+- **Comparing Versions:** Different versions of ChatGPT (3.5, 4, 4-o) can be compared. 
