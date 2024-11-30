@@ -18,7 +18,7 @@ In this project, it is assumed that original data will be distinct from the GPT-
   - [ChatGPT API](#chatgpt-api)  
 - [Data Processing](#data-processing)  
 - [Data Analysis](#data-analysis)  
-  - [Header Analysis](#header-analysis)  
+  - [Subject Analysis](#header-analysis)  
   - [Time Analysis](#time-analysis)  
   - [Mail Body Analysis](#mail-body-analysis)  
   - [GPT-Generated Data Analysis](#gpt-generated-data-analysis)  
