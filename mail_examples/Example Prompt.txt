@@ -1,0 +1,11 @@
+Write an email similar to the following example:
+
+Subject: Broken showerhead
+
+Here are the average characteristics of emails for the topic 'Accommodation':
+- Average word count: 41.02 (±32.3)
+- Average body length: 297.64 (±227.0)
+- Average hour sent: 12.36 (±4.66)
+- Formality score: 3.41 (±2.41)
+
+Do NOT use these statistics or direct numbers in the final email. Write it as if it's real life.
