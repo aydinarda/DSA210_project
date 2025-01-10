@@ -46,8 +46,8 @@ The motivation is to better understand how AI agents can mimic my email-writing 
 - **Scipy:** Used for statistical analysis.  
 - **transformers:** Simplifies the usage of pre-trained models from Hugging Face.
 - **openai:** To interact with the OpenAI API.
--**FlagReranker** To compute some [formality score](#formality-score) .
--**xlm-roberta-large-xnli** To assigning topics using a [classifier](https://huggingface.co/joeddav/xlm-roberta-large-xnli).
+- **FlagReranker** To compute some [formality score](#formality-score).
+- **xlm-roberta-large-xnli** To assigning topics using a [classifier](https://huggingface.co/joeddav/xlm-roberta-large-xnli).
   
 ## Data Source
 
