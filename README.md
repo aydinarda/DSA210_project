@@ -73,7 +73,7 @@ The ChatGPT API is used to generate comparable email data based on the following
 
 ## Data Processing
 
-Data preprocessing is performed using [here]() and includes:  
+Data preprocessing is performed and includes:  
 - Cleaning (e.g., removing special characters, handling null values).  
 - Structuring (e.g., separating headers, body text, and metadata).  
 - Annotating sentiment and tone using NLP techniques.  
@@ -81,10 +81,10 @@ Data preprocessing is performed using [here]() and includes:
 ## Data Analysis
 
 ### Header Analysis
-
-- Extract topics and themes from email headers.  
+  
 - Categorize headers based on recurring patterns and contexts.  
-
+- Use these as a clue to get more successful points from ChatGPT API
+- 
 ### Time Analysis
 
 - Analyze email-sending patterns by time of day and day of the week.  
@@ -109,6 +109,19 @@ Data preprocessing is performed using [here]() and includes:
 
 - Visualizations of key characteristics in the original dataset (e.g., word count, time distribution).  
 - - Example versions can be viewed [here](initial_distributions.png).
+ 
+  - ## Regarding Time Emails Sent
+  - Distributions for almost all the topics support that there is peak on around 8. ![hour_distribution_Complaints_no_outliers](https://github.com/user-attachments/assets/f0949895-d92b-4c13-9536-d93612109251)![hour_distribution_Empty_no_outliers](https://github.com/user-attachments/assets/df79f252-693f-4ccf-8b12-0fd5c1f6d467)![hour_distribution_Other Help_no_outliers](https://github.com/user-attachments/assets/8560bf5c-4cbe-456c-a30a-e14bbcc7492b)
+  - Time interval for emails about job applications quite restricted, but data is also limited. ![hour_distribution_Work   Job Applications_no_outliers](https://github.com/user-attachments/assets/e4f57849-1909-4600-af5c-d23d34a95fb3)
+  - There is huge difference between weekday and weekend statistcs. ![initial_distributions](https://github.com/user-attachments/assets/7cd19672-c2f8-467a-90f6-94260c36135b)
+  ## Physical Characteristics of Mails
+    - Means are more similar, aside from 'Empty' emails.
+    - Skewness changes comparably. 
+    - More data may needed for further analysis.
+  ## For more details check the above mentioned slides.
+
+
+  
 
 ### Distributions of GPT-Generated Data
 
@@ -134,6 +147,15 @@ Data preprocessing is performed using [here]() and includes:
 
 - **Explainability:** Understanding the rationale behind GPT outputs is complex.  
 - **Sentiment Analysis Accuracy:** Dependence on pre-trained models limits nuanced interpretations.  
+
+### RESULTS
+- With significance, it is rejected that, GPT generated mails do not have the similar characteristics with the human generated ones, even after lots of details have been provided to ChatGPT.
+  
+![Spider Web](https://github.com/user-attachments/assets/8d5629d0-2efd-40a1-9f03-4151029057ef)
+
+- All the p-values for the numerical attributes confirmed that when Kolmogorov-Smirnov Test employed.
+
+![KS-Comparison](https://github.com/user-attachments/assets/cca16a3a-e91e-4989-8901-2c2601638744)
 
 ## Future Work
 
