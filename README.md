@@ -12,7 +12,8 @@ In this project, following hypothesis will be tested, characteristics features o
 ## Table of Contents
 
 - [Motivation](#motivation)  
-- [Tools](#tools)  
+- [Tools](#tools)
+- [Notebooks](#notebooks)  
 - [Data Source](#data-source)  
   - [Requested Data](#requested-data)  
   - [ChatGPT API](#chatgpt-api)  
@@ -48,7 +49,16 @@ The motivation is to better understand how AI agents can mimic my email-writing 
 - **openai:** To interact with the OpenAI API.
 - **FlagReranker** To compute some [formality score](#formality-score).
 - **xlm-roberta-large-xnli** To assigning topics using a [classifier](https://huggingface.co/joeddav/xlm-roberta-large-xnli).
-  
+
+## Notebooks
+- **[DSA Analysis](DSA_analysis.ipynb):** To complete initial analysis, parse .mbox, generate the features.
+- **[DSA Analysis GPT](DSA_analysis_gpt.ipynb):** Initial analysis, parsing and generating features.
+- **[Distributions No Outliers](Distributions_no_outliers.ipynb):** Drop outliers, explore once again.
+- **[Visualize Analyze](visualize_analyze.ipynb):** Visualize and analyze the handwritten mails, KS-test, Normal Test, visualizations.
+- **[Visualize Analyze GPT](visualize_analyze_gpt.ipynb):** Visualize and analyze the GPT generated mails, KS-test, Normal Test, visualizations.
+- **[GPT Interaction](GPT_Interaction.ipynb):** Interactions with the ChatGPT API.
+- **[Compare](Compare.ipynb):** Compare GPT generated emails with the handwritten emails.
+
 ## Data Source
 
 ### Requested Data
