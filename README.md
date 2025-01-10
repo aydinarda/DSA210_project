@@ -82,9 +82,9 @@ Data preprocessing is performed and includes:
 
 ### Header Analysis
   
-- Categorize headers based on recurring patterns and contexts.  
+  
 - Use these as a clue to get more successful points from ChatGPT API
-- 
+
 ### Time Analysis
 
 - Analyze email-sending patterns by time of day and day of the week.  
@@ -118,7 +118,7 @@ Data preprocessing is performed and includes:
     - Means are more similar, aside from 'Empty' emails.
     - Skewness changes comparably. 
     - More data may needed for further analysis.
-  ## For more details check the above mentioned slides.
+  ## For more details check the above mentioned [slides](#description).
 
 
   
