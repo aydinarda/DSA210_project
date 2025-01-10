@@ -2,7 +2,7 @@
 
 ## Description
 
-Sabancı University CS210 Introduction to Data Science Course Fall 2024-2025 Term Project.  
+Sabancı University DSA210 Introduction to Data Science Course Fall 2024-2025 Term Project.  
 This project will be an analysis of my own sent email interactions.
 
 For the final presentation, a file will be shared [here](https://docs.google.com/presentation/d/1wiyq_E6wx1zO6KUc2wcIdjRx3ZfrCVFE2emdkgISrgc/edit?usp=sharing).
